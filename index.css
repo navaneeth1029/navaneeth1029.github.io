@@ -2,7 +2,6 @@ body{
   background: linear-gradient(#2E236C,#C8ACD6);
 }
 
-a{
-  background-color: #F8EDE3;
-  font-family: lato;
+h1{
+  background-color: #000;
 }
