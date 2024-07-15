@@ -2,7 +2,7 @@ body{
   background: linear-gradient(#2E236C,#C8ACD6);
 }
 
-p{
-  color: 'white';
+#content{
+  color: 'grey';
   font-family: lato;
 }
