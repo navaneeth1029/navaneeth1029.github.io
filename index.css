@@ -1,3 +1,7 @@
 body{
   background: linear-gradient(#2E236C,#C8ACD6);
 }
+
+p{
+  color: white;
+}
