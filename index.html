@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 10 Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Class 10 Webpage</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#roster">Class Roster</a></li>
+            <li><a href="#calendar">Event Calendar</a></li>
+            <li><a href="#gallery">Photo Gallery</a></li>
+            <li><a href="#message-board">Message Board</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="roster">
+            <h2>Class Roster</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>mobile</th>
+                </tr>
+                <tr>
+                    <td>musku_sprunith</td>
+                    <td>0000000000</td>
+                </tr>
+                <tr>
+                    <td>N Ajay</td>
+                    <td>0000000000</td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </table>
+        </section>
+        <section id="calendar">
+            <h2>Event Calendar</h2>
+            <ul>
+                <li>______</li>
+                <li>August 15: Independence Day Celebration</li>
+                <li>September 5: Teacher's Day</li>
+                <!-- Add more events as needed -->
+            </ul>
+        </section>
+        <section id="gallery">
+            <h2>Photo Gallery</h2>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="images/friend1.jpg" alt="Friend 1">
+                    <p>Friend 1</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/friend2.jpg" alt="Friend 2">
+                    <p>Friend 2</p>
+                </div>
+                <!-- Add more gallery items here -->
+            </div>
+        </section>
+        <section id="message-board">
+            <h2>Message Board</h2>
+            <form id="message-form">
+                <textarea id="message-input" placeholder="Write a message..." required></textarea>
+                <button type="submit">Post Message</button>
+            </form>
+            <div id="messages-container">
+                <!-- Messages will appear here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Class 10</p>
+    </footer>
+
+    <!-- Modal for Photo Gallery -->
+    <div id="photoModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImg">
+        <div id="caption"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
