@@ -5,4 +5,5 @@ body{
 h1{
   background-color: #F7E7DC;
   color: #2F3645;
+  border-radius: 5px;
 }
