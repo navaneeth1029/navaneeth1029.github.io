@@ -3,5 +3,6 @@ body{
 }
 
 p{
-  color: white;
+  color: 'white';
+  font-family: lato;
 }
